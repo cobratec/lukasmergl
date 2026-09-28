@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lukáš Mergl – doprava v ČR a po Evropě</title>
+  <meta name="description" content="Spolehlivá přeprava materiálu, dílů a hotových výrobků po Česku i po Evropě. VW Crafter a VW Caddy, Eurolicence, pojištění nákladu. Tel. +420 603 938 926.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="#" class="brand">Lukáš Mergl</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button>
+    <nav class="nav" id="nav" onclick="if(event.target.tagName==='A')this.classList.remove('open')">
+      <a href="#nabidka">Nabídka</a>
+      <a href="#vozovy-park">Vozový park</a>
+      <a href="#proc-my">Proč s námi</a>
+      <a href="#kontakt" class="btn btn-small">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+      <p class="tag">Doprava v ČR a po Evropě</p>
+      <h1>Spolehlivá doprava pro vaši potřebu</h1>
+      <hr class="rule">
+      <p class="lead">Potřebujete rychle dostat materiál, díly nebo hotové výrobky tam, kam patří? Postaráme se o přepravu po Česku i po Evropě, jednorázově i v rámci dlouhodobé spolupráce.</p>
+      <div class="actions">
+        <a href="tel:+420603938926" class="btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          +420 603 938 926
+        </a>
+        <a href="#vozovy-park" class="btn btn-ghost">Vozový park</a>
+      </div>
+      </div>
+      <img class="hero-img" src="img/hero-crafter.jpg" alt="Dodávka VW Crafter na dálnici" width="1000" height="720">
+    </div>
+  </section>
+
+  <!-- NABÍDKA -->
+  <section id="nabidka" class="bg-light">
+    <div class="wrap">
+      <h2 class="section-title">Nabídka dopravy</h2>
+      <p class="section-intro">Převezeme materiál, díly i hotové výrobky pro výrobní a průmyslové firmy – od menších kusových zásilek až po několik palet.</p>
+      <div class="services">
+        <div class="card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          <h3>Vnitrostátní přeprava</h3>
+          <p>Rychlé dodání po celé České republice – mezi provozy, k zákazníkům i od dodavatelů.</p>
+        </div>
+        <div class="card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <h3>Mezinárodní přeprava</h3>
+          <p>Doprava po Evropě na základě Eurolicence, s pojištěním nákladu.</p>
+        </div>
+        <div class="card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M8 15l2.5 2.5L16 12"/></svg>
+          <h3>Jednorázově i dlouhodobě</h3>
+          <p>Jednorázové zakázky i pravidelná dlouhodobá spolupráce podle vašich potřeb.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOZOVÝ PARK -->
+  <section id="vozovy-park">
+    <div class="wrap">
+      <h2 class="section-title">Vozový park</h2>
+      <p class="section-intro">Dvě vozidla pro různé velikosti zásilek – vybereme to, které se na vaši přepravu hodí nejlépe.</p>
+      <div class="fleet">
+        <article class="vehicle">
+          <img src="img/vw-crafter.jpg" alt="Dodávka VW Crafter na dálnici" width="800" height="565" loading="lazy">
+          <div class="body">
+            <h3>VW Crafter</h3>
+            <ul class="specs">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="3"/><path d="M6.5 8h11L21 21H3z"/></svg>
+                <div><strong>900 kg</strong><span>nosnost</span></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="10" rx="1"/><path d="M3 18h18M6 14v6M12 14v6M18 14v6"/></svg>
+                <div><strong>5–6</strong><span>palet</span></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.7l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.7l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.7z"/><path d="M3.3 7L12 12l8.7-5M12 22V12"/></svg>
+                <div><strong>~14 m³</strong><span>ložný objem</span></div>
+              </li>
+            </ul>
+            <p>Velkoprostorová dodávka pro paletové zásilky, objemnější materiál a díly.</p>
+          </div>
+        </article>
+        <article class="vehicle">
+          <img src="img/vw-caddy2.jpg" alt="VW Caddy na silnici" width="800" height="565" loading="lazy">
+          <div class="body">
+            <h3>VW Caddy</h3>
+            <p>Pro menší kusové zásilky nebo osobní přepravu, rychle a hospodárně.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROČ S NÁMI -->
+  <section id="proc-my" class="bg-light">
+    <div class="wrap">
+      <h2 class="section-title">Proč jezdit s námi</h2>
+      <p class="section-intro">Spolehlivý partner pro firmy, které potřebují mít zboží včas na místě.</p>
+      <ul class="why">
+        <li>Vnitrostátní i mezinárodní přeprava na základě Eurolicence</li>
+        <li>Pojištění nákladu</li>
+        <li>Plátce DPH, standardní fakturace pro firmy</li>
+        <li>Jednorázové zakázky i dlouhodobá spolupráce podle vašich potřeb</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt" class="contact">
+    <div class="wrap">
+      <h2 class="section-title">Zavolejte, domluvíme přepravu</h2>
+      <p class="section-intro">Ozvěte se telefonicky nebo e-mailem – rád s vámi probereme termín, trasu i cenu.</p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+          <div><small>Dopravce</small><strong>Lukáš Mergl</strong><span class="ico">IČO: 72874830</span></div>
+        </div>
+        <a class="contact-item" href="tel:+420603938926">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          <div><small>Telefon</small><strong>+420 603 938 926</strong></div>
+        </a>
+        <a class="contact-item" href="mailto:lukasmergl@seznam.cz">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+          <div><small>E-mail</small><strong>lukasmergl@seznam.cz</strong></div>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">© 2026 Lukáš Mergl – doprava v ČR a po Evropě · IČO: 72874830</div>
+</footer>
+
+</body>
+</html>
